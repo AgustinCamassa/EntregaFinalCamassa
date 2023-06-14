@@ -1,0 +1,24 @@
+.contenedorItem {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #e3e1e1;
+    margin: 3rem;
+}
+
+img {
+    width: 40vw;
+}
+
+.divImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divLink {
+text-decoration: none;
+color: black;
+background-color: #e3e1e1;
+}
