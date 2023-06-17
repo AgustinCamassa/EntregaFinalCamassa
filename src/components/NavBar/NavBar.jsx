@@ -10,7 +10,7 @@ const NavBar = () => {
           <img className="imgT" src={imgT} alt="" />
         </Link>
 
-        <nav>
+        <nav className="fondoNav">
             <ul>
                 <li>
                   <NavLink to={"/categoria/0"} className={"texto"}> Nvidia </NavLink>

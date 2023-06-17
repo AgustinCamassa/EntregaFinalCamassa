@@ -20,17 +20,24 @@ const ItemDetail = ({ id, nombre, precio, img, stock }) => {
 
   return (
     <div className='contenedorItem'>
-      <h2>Nombre: {nombre} </h2>
-      <h3>Precio: {precio} </h3>
-      <h3>ID: {id} </h3>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odio eveniet facere maiores quo tempore quisquam! Consectetur dolores quos ducimus maiores quam quae, eveniet voluptatibus beatae, nemo cumque tempore modi?</p>
-      <div className='divImg'>
-        <img src={img} alt={nombre} />
+      <div className='tit'>
+        <h2>Nombre: {nombre} </h2>
+        <h3>Precio: {precio} </h3>
+        <h3>ID: {id} </h3>
       </div>
-      <div>
-      {
-        agregarCantidad > 0 ? (<Link to="/cart" className='divLink'> Terminar Compra </Link>) : (<ItemCount inicial={1} stock={stock} funcionAgregar={manejadorCantidad} />)
-      }
+
+      <div className='hand'>
+        <div>
+        <div className='divImg'>
+          <img src={img} alt={nombre} />
+        </div>
+        <p className='lorem'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odio eveniet facere maiores quo tempore quisquam! Consectetur dolores quos ducimus maiores quam quae, eveniet voluptatibus beatae, nemo cumque tempore modi?</p>
+        </div>
+        <div className='botonTer'>
+          {
+            agregarCantidad > 0 ? (<Link to="/cart" className='divLink'> Terminar Compra </Link>) : (<ItemCount inicial={1} stock={stock} funcionAgregar={manejadorCantidad} />)
+          }
+        </div>
       </div>
     </div>
   )

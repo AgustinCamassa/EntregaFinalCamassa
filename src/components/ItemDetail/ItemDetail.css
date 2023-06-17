@@ -3,12 +3,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: wheat;
     border: 1px solid #e3e1e1;
-    margin: 3rem;
+    background-color: rgba(0, 0, 0, 0.857);
 }
 
 img {
-    width: 40vw;
+    width: 36rem;
+    border-radius: 2rem;
 }
 
 .divImg {
@@ -18,7 +20,41 @@ img {
 }
 
 .divLink {
-text-decoration: none;
-color: black;
-background-color: #e3e1e1;
+    text-decoration: none;
+    background-color: #3c3e3e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.lorem {
+    margin: 2rem 16rem 3rem 16rem;
+    font-size: 1.3rem;
+    display: block;
+}
+
+.tit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 1.8rem 13rem 0.7rem 0rem;
+}
+
+.hand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 3rem;
+}
+
+.botonTer {
+    margin: 0rem 12rem 16rem -10rem;
 }
