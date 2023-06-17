@@ -1,0 +1,77 @@
+.fondo {
+    background-color: black;
+    color: wheat;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.checkout {
+    color: yellow;
+    font-size: 2rem;
+}
+
+.form1 {
+    background-color: #141515;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+.prodElegido {
+    background-color: #3c3e3e;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.total {
+    font-size: 1.8rem;
+    background-color: #141515;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.form2 {
+    background-color: #141515;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+.call {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.error {
+    background-color: #141515;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.but {
+    font-size: 1.5rem;
+}
+
+.orden {
+    margin: 1rem;
+    padding: 1rem 0rem 5rem 0rem;
+}
+
+.tex {
+    font-size: 1.2rem;
+}
+
+.num {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: red;
+}

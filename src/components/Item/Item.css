@@ -10,15 +10,38 @@
 }
 
 .boxText {
-    flex-direction: column;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     background-color: #ddd9d9;
     border-radius: 1rem;
     margin-top: 1rem;
-    padding: 0px 16px 20px 16px;
+    padding: 0.7rem 2rem;
+    text-align: center;
 }
 
 .imgProducto {
     width: 240px;
     object-fit: contain;
     border-radius: 1rem;
+}
+
+.textCat {
+    font-size: 1rem;
+    color: #424141;
+}
+
+.textCatT {
+    font-size: 1rem;
+
+}
+
+.linkCat {
+    text-decoration: none;
+    background-color: #5e5d5d;
+    padding: 0.5rem 1rem;
+    color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    margin: 1rem;
 }

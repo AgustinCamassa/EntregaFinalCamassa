@@ -24,7 +24,7 @@ const ItemListContainer = () => {
 
   return (
     <div className='fondoBody'>
-      <h2 className='h2Mis'> Mis productos </h2>
+      <h2 className='h2Mis'> Catálogo </h2>
       <ItemList productos={productos} />
     </div>
   )

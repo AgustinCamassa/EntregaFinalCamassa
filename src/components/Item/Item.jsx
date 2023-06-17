@@ -6,10 +6,10 @@ const Item = ({ id, nombre, precio, img }) => {
     <div className='cardProducto'>
       <img className='imgProducto' src={img} alt={nombre} />
       <div className='boxText'>
-        <h3>Nombre: {nombre} </h3>
-        <p>Precio: {precio} </p>
-        <p>ID: {id} </p>
-        <Link to={`/item/${id}`}> Ver Detalles</Link>
+        <h3 className='textCatT'>Nombre: {nombre} </h3>
+        <p className='textCat'>Precio: {precio} </p>
+        <p className='textCat'>ID: {id} </p>
+        <Link className={"linkCat"} to={`/item/${id}`}> Ver Detalles</Link>
       </div>
     </div>
   )

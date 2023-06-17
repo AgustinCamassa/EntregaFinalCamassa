@@ -13,15 +13,15 @@ const NavBar = () => {
         <nav className="fondoNav">
             <ul>
                 <li>
-                  <NavLink to={"/categoria/0"} className={"texto"}> Nvidia </NavLink>
+                  <NavLink to={"/categoria/0"} activeClassName="active" className={"texto"}> Nvidia </NavLink>
                 </li>
 
                 <li>
-                  <NavLink to={"/categoria/1"}className={"texto"}> AMD </NavLink>
+                  <NavLink to={"/categoria/1"} activeClassName="activeA" className={"texto"}> AMD </NavLink>
                 </li>
 
                 <li>
-                  <NavLink to={"/categoria/2"}className={"texto"}> Intel </NavLink>
+                  <NavLink to={"/categoria/2"} activeClassName="activeI" className={"texto"}> Intel </NavLink>
                 </li>
             </ul>
         </nav>

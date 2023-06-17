@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyANEJswY4GZnIIR01_mni4z83yk5RZ9UBc",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "tienda-react-cam.firebaseapp.com",
   projectId: "tienda-react-cam",
   storageBucket: "tienda-react-cam.appspot.com",
